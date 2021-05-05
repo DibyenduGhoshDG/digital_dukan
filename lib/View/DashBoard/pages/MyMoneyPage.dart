@@ -24,14 +24,16 @@ class _MyMoneyPageState extends State<MyMoneyPage> {
               FontAwesomeIcons.chartBar,
               color: Colors.white,
             ),
-            iconSize: 15, onPressed: () {  },
+            iconSize: 15,
+            onPressed: () {},
           ),
           IconButton(
             icon: FaIcon(
               FontAwesomeIcons.search,
               color: Colors.white,
             ),
-            iconSize: 15, onPressed: () {  },
+            iconSize: 15,
+            onPressed: () {},
           ),
         ],
       ),
@@ -104,7 +106,7 @@ class _ToggleContainerState extends State<ToggleContainer> {
                     Column(
                       children: [
                         Text(
-                          'sale',
+                          'sales',
                           style: TextStyle(
                             fontSize: 15,
                             color: ColorConst.darkWhite,
